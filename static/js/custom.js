@@ -108,7 +108,7 @@ $(document).ready(function() {
 
   // 发送请求获得响应
   async function sendRequest(data) {
-    const response = await fetch('https://open.aiproxy.xyz/v1/chat/completions', {
+    const response = await fetch('https://open.aiproxy.xyz/v1/completions', {       //v1/chat/completions
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
